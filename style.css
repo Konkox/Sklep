@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__caption {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  text-align: right;
+}
+.nav__link {
+  text-decoration: none;
+}
+
+.desc {
+  width: 500px;
+  height: 500px;
+  float: left;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+  top: 50px;
+}
+.images__element {
+  width: 500px;
+  height: 500px;
+}
+
+.footer {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

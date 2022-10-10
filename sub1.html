@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nasz sklep</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="sub1.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h2 class="header header__caption">Lista produktów</h2>
+      </header>
+
+      <nav class="nav">
+        <a class="nav nav__link" href="index.html"> Wróc na główną </a>
+        <a class="nav nav__link" href="sub2.html"> Logowanie </a>
+      </nav>
+
+      <section class="section">
+        <p class="section section__paragraph">Wybierz produkt</p>
+        <br />
+        <select id="w_zdj" onchange="zm_zdj()" class="section section__select">
+          <option
+            value="zdj1"
+            class="section section__select section__select--option"
+          >
+            pierwszy produkt
+          </option>
+          <option
+            value="zdj2"
+            class="section section__select section__select--option"
+          >
+            drugi produkt
+          </option>
+          <option
+            value="zdj3"
+            class="section section__select section__select--option"
+          >
+            trzeci produkt
+          </option>
+          <option
+            value="zdj4"
+            class="section section__select section__select--option"
+          >
+            czwarty produkt
+          </option>
+          <option
+            value="zdj5"
+            class="section section__select section__select--option"
+          >
+            piąty produkt
+          </option>
+          <option
+            value="zdj6"
+            class="section section__select section__select--option"
+          >
+            szósty produkt
+          </option>
+        </select>
+        <br />
+        <img
+          src="/zdjecia/zdjecie1.jpg"
+          alt="zdjecie produktu"
+          id="zdj"
+          class="section section__select section__select--img"
+        />
+      </section>
+
+      <footer class="footer">Stopka</footer>
+    </div>
+  </body>
+
+  <script src="sub1.js"></script>
+</html>

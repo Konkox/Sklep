@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav__link {
+  text-decoration: none;
+  margin: 5px;
+}
+
+.section {
+  margin-left: 357px;
+}
+.section__select {
+  width: 123px;
+  height: 50px;
+}
+.section__select--img {
+  margin-left: 215px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=sub1.css.map */
